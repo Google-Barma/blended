@@ -224,6 +224,7 @@ img {
 .resposive {
   position: relative;
   width: 100%;
+  min-height: 550px;
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -239,14 +240,14 @@ img {
   height: 880px;
   z-index: -1;
 }
-.rec {
+/* .rec {
   position: absolute;
   top: 0;
   left: 0;
   width: 80px;
   height: 100px;
   background-color: lawngreen;
-}
+} */
 .macbook {
   position: absolute;
   top: 50%;
@@ -364,4 +365,18 @@ img {
 .icons {
   width: 976px;
   margin: 0 auto;
+}
+.aweson {
+  min-height: 754px;
+  background-image: url(../img/window.png), linear-gradient(#f6f5f3, #f6f5f3);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  text-align: center;
+  padding: 90px 0 0;
+}
+.aweson .title {
+  text-align: center;
+}
+.aweson .second-title {
+  text-align: center;
 }

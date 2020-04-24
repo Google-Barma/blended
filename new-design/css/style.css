@@ -270,15 +270,15 @@ img {
 }
 .fouders {
   color: #ffffff;
-  padding: 100 0;
-  position: relative;
   width: 100%;
   height: 100%;
   background-image: url(../img/founder_bg.png);
   background-repeat: no-repeat;
   background-position: center top;
+  padding: 100px 0;
 }
 .founder-rectangele {
+  margin: 0 auto;
   width: 78px;
   height: 76px;
   border-style: solid;
@@ -297,7 +297,7 @@ img {
   font-size: 16px;
   font-family: 'Exo';
   color: rgb(255, 109, 109);
-  line-height: 3.125;
+  line-height: 2.125;
   text-align: center;
 }
 .fouder-text {
@@ -308,12 +308,60 @@ img {
   line-height: 1.625;
   text-align: center;
 }
-.fouders-list {
-  list-style: none;
+.founder-list {
   width: 1140px;
   margin: 0 auto;
+  padding-bottom: 90px;
 }
 .founder-item {
+  list-style: none;
   width: 360px;
   float: right;
+  text-align: center;
+}
+.icons-item-one {
+  width: 130px;
+  height: 65px;
+  background-image: url(../img/partner-logo/partner-logo-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icons-item-two {
+  width: 110px;
+  height: 56px;
+  background-image: url(../img/partner-logo/partner-logo-4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icons-item-three {
+  width: 98px;
+  height: 85px;
+  background-image: url(../img/partner-logo/partner-logo-5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icons-item-four {
+  width: 95px;
+  height: 61px;
+  background-image: url(../img/partner-logo/partner-logo-7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icons-item-five {
+  width: 120px;
+  height: 54px;
+  background-image: url(../img/partner-logo/partner-logo-8.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icons-list {
+  float: left;
+  list-style: none;
+}
+.icons-list:not(:last-of-type) {
+  margin-right: 86px;
+}
+.icons {
+  width: 976px;
+  margin: 0 auto;
 }

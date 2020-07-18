@@ -18,12 +18,12 @@ console.log(smallestDivisor(7));
 
 //рекурсивная функция /факторифл/
 
-const factorial = n => {
-  if (n === 0) {
-    return 1;
-  } else {
-    return n * factorial(n - 1);
-  }
-};
+// const factorial = n => {
+//   if (n === 0) {
+//     return 1;
+//   } else {
+//     return n * factorial(n - 1);
+//   }
+// };
 
-const answer = factorial(3);
+// const answer = factorial(3);

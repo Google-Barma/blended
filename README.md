@@ -6,9 +6,9 @@
 
 - [x] [chooseYourTour](https://google-barma.github.io/blended/chooseYourTour/)
 
-- [x] [chooseYourTour](https://google-barma.github.io/blended/sumNumberOfWords/)
+- [x] [sumNumberOfWords](https://google-barma.github.io/blended/sumNumberOfWords/)
 
-- [x] [chooseYourTour](https://google-barma.github.io/blended/recursive-function/)
+- [x] [recursive-function](https://google-barma.github.io/blended/recursive-function/)
 
 # HTML/CSS traine
 

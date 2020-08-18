@@ -210,16 +210,16 @@
 // // //----------------------------------------------------------------
 // // Найти обьект по лучшем скорам
 
-// const users = [
-//   { name: 'John', score: 10 },
-//   { name: 'Pete', score: 5 },
-//   { name: 'Mary', score: 20 },
-// ];
+const users = [
+  { name: 'John', score: 10 },
+  { name: 'Pete', score: 5 },
+  { name: 'Mary', score: 20 },
+];
 
-// const highScoreUsers = arr =>
-//   arr.reduce((acc, item) =>
+const highScoreUsers = arr =>
+  arr.reduce((acc, item) => (acc.score < item.score ? item : acc));
 
-// console.log(highScoreUsers(users)) // [{ name: "Mary", score: 20}]
+console.log(highScoreUsers(users)); // [{ name: "Mary", score: 20}]
 
 // // //----------------------------------------------------------------
 // // // Вывести строкой - Имя - позиция в массиве Х и сам массив
@@ -351,4 +351,3 @@
 //     this.size = '';
 //   }
 // }
-
